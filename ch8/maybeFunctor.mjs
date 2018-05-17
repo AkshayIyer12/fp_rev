@@ -1,5 +1,5 @@
 import { curry, map, prop, printLn, add, compose } from '../util'
-class Maybe {
+export default class Maybe {
   constructor (x) {
     this.$value = x
   }
